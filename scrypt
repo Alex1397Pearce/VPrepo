@@ -1,0 +1,12 @@
+#!/bin/bash
+fp="-git"
+sp="-env"
+if [ "$fp"  = "$1" ]
+then
+git status
+elif [ "$sp"  = "$1" ]
+then
+printenv
+else
+echo "No parameters found or parameters wrong."
+fi
