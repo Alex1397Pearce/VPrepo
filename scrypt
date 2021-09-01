@@ -11,6 +11,7 @@ printenv
 echo "0" > /temp/ExitCode
 else
 echo "No parameters found or parameters wrong."
+cat /etc/os-release
 echo "13" > /temp/ExitCode
 exit 13
 fi
