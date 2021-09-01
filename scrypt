@@ -4,14 +4,14 @@ sp="-env"
 if [ "$fp"  = "$1" ]
 then
 git status
-echo "0" > /temp/ExitCode
+#echo "0" > /temp/ExitCode
 elif [ "$sp"  = "$1" ]
 then
 printenv
-echo "0" > /temp/ExitCode
+#echo "0" > /temp/ExitCode
 else
 echo "No parameters found or parameters wrong."
 cat /etc/os-release
-echo "13" > /temp/ExitCode
+#echo "13" > /temp/ExitCode
 exit 13
 fi
