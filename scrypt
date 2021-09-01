@@ -9,4 +9,5 @@ then
 printenv
 else
 echo "No parameters found or parameters wrong."
+exit 13
 fi
