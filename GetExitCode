@@ -1,3 +1,4 @@
 #!/bin/bash
 ExitCode=("`cat /temp/ExitCode`")
+cat /etc/os-release
 exit $ExitCode
