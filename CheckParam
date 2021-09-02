@@ -1,0 +1,10 @@
+#!/bin/bash
+fp="-git"
+sp="-env"
+if [ "$sp"  = "$1" ]
+then
+exit 0
+elif [ "$fp"  = "$1" ]
+then
+exit 13
+fi
